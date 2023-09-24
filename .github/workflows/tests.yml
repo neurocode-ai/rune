@@ -8,7 +8,7 @@ on:
 jobs:
   tests:
     name: Test and codecov
-    run-on: ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
     strategy:
       matrix:
         os: [ ubuntu-latest ]
